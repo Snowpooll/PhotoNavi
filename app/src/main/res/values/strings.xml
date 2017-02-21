@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">PhotoNavi</string>
+    <string name="ch1402_label_hint_address">メールアドレス </string>
+    <string name="ch1402_label_hint_subject">題名 </string>
+    <string name="ch1402_label_select_attach">添付</string>
+    <string name="ch1402_label_intent_mail">お好きなメールアプリで送信！</string>
+    <string name="ch1401_label_hint_body">本文を</string>
+    <string name="ch1402_label_input_empty">項目が入力されていません</string>
+    <string name="ch1401_label_notfound_app">対応アプリが見つかりませんでした</string>
+    <string name="ch1403_label_input_empty">項目が入力されていません</string>
+    <string name="ch1406_label_use_gallery">ギャラリーアプリから選ぶ</string>
+    <string name="dialog_title_select_mail_address">メールアドレス選択</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+
+    <EditText
+        android:id="@+id/intputAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:hint="@string/ch1402_label_hint_address" />
+    <Button
+        android:id="@+id/get_mail_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="メールアドレスの取得" />
+
+    <EditText
+        android:id="@+id/intputSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:hint="@string/ch1402_label_hint_subject"
+        android:text="ここまできてね" />
+
+    <EditText
+        android:id="@+id/intputBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_xlarge"
+        android:hint="@string/ch1401_label_hint_body"
+        android:text="PhotoNavi でナビってみて" />
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <TextView
+            android:id="@+id/textAttachFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/selectAttach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ch1402_label_select_attach" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/linkMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ch1402_label_intent_mail" />
+</LinearLayout>
